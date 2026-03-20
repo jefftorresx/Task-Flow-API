@@ -3,8 +3,7 @@ package com.jeff.taskflowAPI.entities;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
-
-import java.util.HashSet;
+import java.util.List;
 
 @Entity
 @Table(name = "users")
